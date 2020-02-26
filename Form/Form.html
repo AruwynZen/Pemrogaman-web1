@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Form
+    </title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Your Detail:</legend>
+            <label for="yname">Name: </label>
+            <input type="text" id="yname" name="yname"><br>
+            <label for="yemail">Email: </label>
+            <input type="email" id="yemail" name="yemail"><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="text">How did you hear about us? Google Friend Advert Other</label><br><br>
+
+            <label for="option">Would you visit again?</label><br>
+            <input type="radio" name="opsi" id="option" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="opsi" id="option" value="no">
+            <label for="no">No</label>
+            <input type="radio" name="opsi" id="option" value="maybe">
+            <label for="maybe">Maybe</label><br><br>
+            <label for="comment">Comments: </label><br>
+            <textarea name="fcomment" id="comment" cols="50" rows="5"></textarea><br><br>
+
+            <input type="checkbox" name="box" id="sign">
+            <label for="sign">Sign me up for email update</label><br>
+            <input type="submit" value="Submit Review">
+        </fieldset>
+    </form>
+</body>
+
+</html>
