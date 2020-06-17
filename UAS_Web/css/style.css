@@ -1,0 +1,52 @@
+.logo{
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+}
+
+.form-inline{
+    border-radius: 4px;
+}
+
+.form-inline{
+    width: 320px;
+}
+
+.form{
+    width: 260px;
+    padding: 5px 5px;
+    margin: 2px 0;
+    border-color: transparent;
+}
+
+.text-box7{
+    width: 1105px;
+    height: 100%;
+    display:grid;
+    margin-left: 205px;
+    background-color: grey;
+    list-style-type:none;
+    grid-template-columns: repeat(3, auto);
+}
+
+.card_size_r{
+    width: 690px;
+}
+.card_size_l{
+    width: 290px;
+}
+
+.cover{
+    width: 1040px;
+    height: 300px;
+    display: block;
+}
+
+.card_img{
+    display: block;
+    width: 150px;
+    height: auto;
+}
+
+.block{
+    display: inline-block;
+}
